@@ -18,7 +18,15 @@ function Router($stateProvider, $urlRouterProvider) {
   .state('about', {
     url: '/',
     templateUrl: '/templates/about.html'
+  })
+  .state('skills', {
+    url: '/skills',
+    templateUrl: '/templates/skills.html'
+  })
+  .state('contact', {
+    url: '/contact',
+    templateUrl: '/templates/contact.html'
   });
 
-  $urlRouterProvider.otherwise('/projects');
+  $urlRouterProvider.otherwise('/');
 }
