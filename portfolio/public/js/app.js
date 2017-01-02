@@ -1,5 +1,5 @@
 angular
-.module('portfolio', ['ngResource', 'ui.router', 'satellizer'])
+.module('portfolio', ['ngResource', 'ngAnimate', 'ui.router', 'satellizer'])
 .config(Router);
 
 Router.$inject = ['$stateProvider', '$urlRouterProvider'];

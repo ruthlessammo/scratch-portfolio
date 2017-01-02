@@ -1,31 +1,37 @@
 <!DOCTYPE html>
 <html ng-app="portfolio">
-  <head>
-    <meta charset="utf-8">
-    <title>William's Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
-    <link rel="stylesheet" href="/css/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-resource.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/satellizer/0.15.5/satellizer.min.js"></script>
-    <script src="/js/app.js" charset="utf-8"></script>
-    <script src="/js/controllers/projects.js" charset="utf-8"></script>
-    <script src="/js/models/project.js" charset="utf-8"></script>
-  </head>
-  <body>
-    <header class="container">
-      <h1>William's Portfolio</h1>
-      <nav>
+<head>
+  <meta charset="utf-8">
+  <title>William's Portfolio</title>
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-resource.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/satellizer/0.15.5/satellizer.min.js"></script>
+  <script src="/js/app.js" charset="utf-8"></script>
+  <script src="/js/controllers/projects.js" charset="utf-8"></script>
+  <script src="/js/controllers/main.js" charset="utf-8"></script>
+  <script src="/js/models/project.js" charset="utf-8"></script>
+</head>
+<body>
+  <header>
+    <div class="navBox">
+      <input class="burger-check hidden" id="burger-check" type="checkbox" ng-model="main.burgerOpen">
+      <label for="burger-check" class="burger"></label>
+      <nav class="navigation">
         <ul>
-          <li ui-sref="about">About</li>
-          <li ui-sref="skills">Skills</li>
-          <li ui-sref="projectsIndex">Portfolio</li>
-          <li ui-sref="contact">Contact</li>
+          <li class="navLi"><a ui-sref="about">WilliamHilton</a></li>
+          <li class="navLi"><a ui-sref="skills">Skills</a></li>
+          <li class="navLi"><a ui-sref="projectsIndex">Portfolio</a></li>
+          <li class="navLi"><a ui-sref="contact">Contact</a></li>
         </ul>
       </nav>
-    </header>
+    </div>
+  </header>
 
-    <main class="container" ui-view></main>
-  </body>
+  <main class="container" ui-view></main>
+</body>
 </html>
