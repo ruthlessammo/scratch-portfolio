@@ -2,7 +2,7 @@
   margin: 20px;
 }
 
-.navLi {
+.li {
   list-style: none;
 }
 
@@ -100,4 +100,21 @@
 
 .eachProject {
   height: 100vh;
+}
+
+.contact {
+  padding: 13% 33%;
+  text-align: center;
+  font-size: 14px;
+}
+
+.about {
+  text-align: center;
+  padding-top: 3%;
+}
+
+.skills li {
+  text-align: center;
+  display: inline-block;
+  padding: 0 80px;
 }
