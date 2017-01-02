@@ -1,10 +1,11 @@
-<section>
+<section class="container">
+  <h1>Portfolio</h1>
   <ul class="row">
-    <li ng-repeat="project in projectsIndex.all" class="twelve columns">
+    <li ng-repeat="project in projectsIndex.all" class="ten columns eachProject">
       <a ui-sref="projectsShow({ id: project._id })">
         <img ng-src="{{ project.image }}" class="u-max-full-width">
         <h2>{{ project.title }}</h2>
-        <p>{{ project.about }}</p>
+        <!-- <p>{{ project.about }}</p> -->
         <a>{{ project.githubLink}}</a><br>
         <a>{{ project.herokuLink}}</a>
       </a>

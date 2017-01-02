@@ -93,3 +93,11 @@
 .hidden {
   display: none !important;
 }
+
+.aboutNav {
+  width: 100%;
+}
+
+.eachProject {
+  height: 100vh;
+}
