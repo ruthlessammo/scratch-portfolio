@@ -16,7 +16,7 @@
   <script src="/js/controllers/main.js" charset="utf-8"></script>
   <script src="/js/models/project.js" charset="utf-8"></script>
 </head>
-<body>
+<body ng-controller="MainController as main">
   <header>
     <div class="navBox">
       <input class="burger-check hidden" id="burger-check" type="checkbox" ng-model="main.burgerOpen">
@@ -29,6 +29,9 @@
           <li class="li"><a ui-sref="about">Contact</a></li>
         </ul>
       </nav>
+      <div class="logo">
+        William Hilton's Portfolio
+      </div>
     </div>
   </header>
 

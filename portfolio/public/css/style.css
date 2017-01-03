@@ -1,3 +1,9 @@
+.logo {
+  display: inline-block;
+  float: right !important;
+  text-transform: uppercase;
+  font-weight: bold;
+}
 .navBox {
   margin: 20px;
 }
@@ -103,7 +109,7 @@
 }
 
 .contact {
-  padding: 13% 33%;
+  padding-top: 7%;
   text-align: center;
   font-size: 14px;
 }
@@ -115,7 +121,7 @@
 
 .skills {
   text-align: center;
-  /*padding-top: 5%;*/
+  padding-top: 10%;
 }
 
 .skills li {
@@ -125,4 +131,20 @@
 
 .skillButtons {
   margin-top: 10%;
+}
+
+.animate-show {
+    -webkit-transition: all ease 1s;
+    transition: all ease 1s;
+    opacity: 1;
+}
+
+.aboutClick:hover {
+  cursor: pointer;
+  color: grey;
+}
+
+.contactClick:hover {
+  cursor: pointer;
+  color: grey;
 }
