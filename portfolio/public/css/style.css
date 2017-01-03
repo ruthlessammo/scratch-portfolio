@@ -3,9 +3,11 @@
   float: right !important;
   text-transform: uppercase;
   font-weight: bold;
+  cursor: pointer;
 }
 .navBox {
   margin: 20px;
+  z-index: -1;
 }
 
 .li {
@@ -117,6 +119,7 @@
 .about {
   text-align: center;
   padding-top: 3%;
+  z-index: 1000;
 }
 
 .skills {
@@ -133,11 +136,11 @@
   margin-top: 10%;
 }
 
-.animate-show {
+/*.animate-show {
     -webkit-transition: all ease 1s;
     transition: all ease 1s;
     opacity: 1;
-}
+}*/
 
 .aboutClick:hover {
   cursor: pointer;
@@ -147,4 +150,8 @@
 .contactClick:hover {
   cursor: pointer;
   color: grey;
+}
+
+.projectsIndex {
+  text-align: center;
 }

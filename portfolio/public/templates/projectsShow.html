@@ -2,8 +2,8 @@
   <img width="100%" ng-src="{{ projectsShow.project.image }}">
   <h2>{{ projectsShow.project.title }}</h2>
   <p>{{ projectsShow.project.about }}</p>
-  <a>{{ projectsShow.project.githubLink}}</a><br>
-  <a>{{ projectsShow.project.herokuLink}}</a><br>
+  <a ng-href="{{projectsShow.project.githubLink}}">{{ projectsShow.project.githubLink}}</a><br>
+  <a ng-href="{{projectsShow.project.herokuLink}}">{{ projectsShow.project.herokuLink}}</a><br>
 
   <button class="u-full-width" ui-sref="projectsIndex">Back</button>
 
