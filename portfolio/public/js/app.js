@@ -16,16 +16,16 @@ function Router($stateProvider, $urlRouterProvider) {
     controller: 'ProjectsShowController as projectsShow'
   })
   .state('about', {
-    url: '/',
+    url: '/about',
     templateUrl: '/templates/about.html'
   })
   .state('skills', {
     url: '/skills',
     templateUrl: '/templates/skills.html'
   })
-  .state('contact', {
-    url: '/contact',
-    templateUrl: '/templates/contact.html'
+  .state('splash', {
+    url: '/',
+    templateUrl: '/templates/splash.html'
   });
 
   $urlRouterProvider.otherwise('/');

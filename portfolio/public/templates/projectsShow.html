@@ -1,10 +1,15 @@
-<section>
-  <img width="100%" ng-src="{{ projectsShow.project.image }}">
-  <h2>{{ projectsShow.project.title }}</h2>
-  <p>{{ projectsShow.project.about }}</p>
-  <a ng-href="{{projectsShow.project.githubLink}}">{{ projectsShow.project.githubLink}}</a><br>
-  <a ng-href="{{projectsShow.project.herokuLink}}">{{ projectsShow.project.herokuLink}}</a><br>
+<section class="u-full-width">
+  <div class="imageShow eight columns">
+    <img width="100%" ng-src="{{ projectsShow.project.image }}">
+  </div>
 
-  <button class="u-full-width" ui-sref="projectsIndex">Back</button>
+  <div class="infoShow four columns">
+    <h3>{{ projectsShow.project.title }}</h3>
+    <p>{{ projectsShow.project.about }}</p>
+    <a class="icons" ng-href="{{projectsShow.project.githubLink}}"><img width="200px" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Logo.png" alt="github"></a>
+    <a class="icons" ng-href="{{projectsShow.project.herokuLink}}"><img width="200px" src="http://i.imgur.com/lwa0UZ8.png" alt="heroku"></a><br>
+    <button class="u-full-width" ui-sref="projectsIndex">Back</button>
+  </div>
+
 
 </section>

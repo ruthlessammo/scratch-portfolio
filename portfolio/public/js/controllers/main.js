@@ -1,21 +1,13 @@
-// angular.module('portfolio')
-//   .controller('MainController', MainController);
-//
-// MainController.$inject = ['$rootScope', '$state'];
-// function MainController($rootScope, $state) {
-//   const main = this;
-//
-//   function nav() {
-//     main.burgerOpen = false;
-//   }
-// }
-
 angular.module('portfolio')
   .controller('MainController', MainController);
 
-MainController.$inject = ['$scope'];
-function MainController($scope) {
+MainController.$inject = ['$scope', '$rootScope'];
+function MainController($scope, $rootScope, toState) {
   const main = this;
+
+  // main.controllerName = toState.name; 
+  // console.log(toState);
+
 
   $scope.aboutClick = function() {
     this.aboutShow = true;
@@ -25,12 +17,5 @@ function MainController($scope) {
     this.contactShow = true;
   };
 
-  // $scope.hoverIn = function(){
-  //   this.hoverShow = true;
-  // };
-  //
-  // $scope.hoverOut = function(){
-  //   this.hoverShow = false;
-  // };
-
+  $rootScope.$on('$stateChangeStart');
 }
