@@ -1,7 +1,7 @@
-body {
-  /*background: url(../images/tri.png) no-repeat center center fixed;*/
-  /*background-size: cover;*/
-  /*background-position: center;*/
+.main .splash-class {
+  background: url(../images/tri.png) no-repeat center center fixed;
+  background-size: cover;
+  background-position: center;
 }
 
 /*.whitespace {
@@ -22,6 +22,10 @@ button {
   text-transform: uppercase;
   font-weight: bold;
   cursor: pointer;
+}
+
+.logo:hover {
+  color:grey;
 }
 .navBox {
   margin: 20px;
@@ -129,6 +133,11 @@ button {
   color: black;
 }
 
+.menuLi:hover {
+  color: grey;
+  cursor: pointer;
+}
+
 .contact {
   padding-top: 7%;
   text-align: center;
@@ -136,14 +145,14 @@ button {
 }
 
 .about {
-  text-align: center;
-  padding-top: 3%;
-  z-index: 1000;
+  /*text-align: center;*/
+  /*padding-top: 3%;*/
+  /*z-index: 1000;*/
 }
 
 .skills {
-  text-align: center;
-  padding-top: 10%;
+  /*text-align: center;*/
+  /*padding-top: 10%;*/
 }
 
 .skills li {
@@ -172,5 +181,5 @@ button {
 }
 
 .projectsIndex {
-  text-align: center;
+  /*text-align: center;*/
 }
