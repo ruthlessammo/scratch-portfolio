@@ -11,7 +11,7 @@ Project.create([{
   about: 'Fun retro styled JavaScript Game topically based on the 2016 US Presidential Elections. Technologies used included: JavaScript, jQuery, HTML5, CSS3. Originally written in ES5 but since has been converted to ES6.',
   githubLink: 'https://github.com/ruthlessammo/WDI-Project-1',
   herokuLink: 'http://presidentialdash.herokuapp.com/',
-  image: 'http://i.imgur.com/KPYqN8a.png'
+  image: 'http://i.imgur.com/SHkrEEN.png'
 },{
   title: 'Disaster Squawk',
   about: 'A group project where you can learn about the world’s natural disasters in real time.  This project involved taking into account project management within a group and how to deal with conflicts. Making requests to MongoDB as well as the implementation of external APIs such as NASA and Twitter. The technology used was jQuery, Node.JS, Express, AJAX, external APIs MongoDB, HTML5 and SCSS.',
@@ -30,6 +30,18 @@ Project.create([{
   githubLink: 'https://github.com/ruthlessammo/wdi-project-4-frontend',
   herokuLink: 'http://ruthlessmuzic.herokuapp.com/',
   image: 'http://i.imgur.com/LwiZkWU.png'
+},{
+  title: 'KeepHush Website (TBA)',
+  about: 'A MODERN MEMBERS CLUB FOR UNDERGROUND MUSIC LOVERS, CENTRED AROUND REGULAR, LIVE STREAMED MUSIC EVENTS.',
+  githubLink: 'TBA',
+  herokuLink: 'TBA',
+  image: 'http://i.imgur.com/hJ7tcfX.png'
+},{
+  title: 'Blockchain Certification Platform (TBA)',
+  about: 'By using the Stampery API we can open a new world of possibilities by overcoming all the limitations inherent to public blockchains and allowing timestamping and anchoring of an unlimited amount of data. With a view to create an platform whereby one can easily submit proof of ownership of personal property on both the Bitcoin and Ethereum Blockchains',
+  githubLink: 'TBA',
+  herokuLink: 'TBA',
+  image: 'http://i.imgur.com/EcZbBYP.png'
 }], (err, projects) => {
   if(err) console.log('There was an error creating projects', err);
 

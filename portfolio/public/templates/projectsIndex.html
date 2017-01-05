@@ -1,9 +1,9 @@
-<section class="container projectsIndex whitespace">
+<section class="row">
   <h1>Portfolio</h1>
-  <ul class="row">
-    <li ng-repeat="project in projectsIndex.all" class="three columns eachProject li">
+  <ul>
+    <li ng-repeat="project in projectsIndex.all" class="four columns li">
       <a ui-sref="projectsShow({ id: project._id })">
-        <img ng-src="{{ project.image }}" class="u-max-full-width" width="750px">
+        <img ng-src="{{ project.image }}" class="u-full-width">
       </a>
       <h6 class="projectsIndexSubtitle">{{ project.title }}</h6>
       <button ui-sref="projectsShow({ id: project._id })" type="button">More Info</button>
