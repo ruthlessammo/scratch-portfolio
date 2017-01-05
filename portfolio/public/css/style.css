@@ -156,8 +156,8 @@ button {
 }
 
 .skills li {
-  text-align: center;
-  display: inline-block;
+  /*text-align: center;*/
+  /*display: inline-block;*/
 }
 
 .skillButtons {
@@ -169,6 +169,9 @@ button {
     transition: all ease 1s;
     opacity: 1;
 }*/
+.aboutClick {
+  text-align: center;
+}
 
 .aboutClick:hover {
   cursor: pointer;
