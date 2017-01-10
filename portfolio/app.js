@@ -8,7 +8,7 @@ const port = process.env.PORT || 8000;
 const router = require('./config/routes');
 const db = require('./config/db');
 
-mongoose.connect(db.uri);
+mongoose.connect('db.uri');
 
 app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({ extended: true }));
