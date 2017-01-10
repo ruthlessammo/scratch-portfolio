@@ -1,7 +1,7 @@
 <section class="row">
   <h1>Portfolio</h1>
   <ul>
-    <li ng-repeat="project in projectsIndex.all" class="four columns li">
+    <li ng-repeat="project in projectsIndex.all" class="grid-item four columns li">
       <a ui-sref="projectsShow({ id: project._id })">
         <img ng-src="{{ project.image }}" class="u-full-width">
       </a>

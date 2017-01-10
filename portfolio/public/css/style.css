@@ -193,3 +193,8 @@ a.contactLi {
 .projectsIndex {
   /*text-align: center;*/
 }
+
+.grid-item:nth-child(3n+1) {
+  clear: left;
+  margin-left: 0;
+}
