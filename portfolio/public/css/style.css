@@ -198,3 +198,7 @@ a.contactLi {
   clear: left;
   margin-left: 0;
 }
+
+.grid-item {
+  text-align: center;
+}
