@@ -8,8 +8,8 @@ const port = process.env.PORT || 8000;
 const router = require('./config/routes');
 const db = require('./config/db');
 
-let mongoUri = process.env.MONGODB_URI || 'mongodb://localhost/portfolio';
-mongoose.connect(db.uri);
+let mongoUri =  process.env.MONGODB_URI || 'mongodb://localhost/portfolio';
+mongoose.connect(mongoUri);
 
 app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({ extended: true }));

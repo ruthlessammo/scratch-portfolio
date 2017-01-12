@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
-const db = require('../config/db');
 const Project = require('../models/project');
 
-mongoose.connect(db.uri);
+let mongoUri =  process.env.MONGODB_URI || 'mongodb://localhost/portfolio';
+mongoose.connect(mongoUri);
 
 Project.collection.drop();
 
