@@ -1,12 +1,15 @@
-<section class="row">
-  <h1>Portfolio</h1>
-  <ul>
-    <li ng-repeat="project in projectsIndex.all" class="grid-item four columns li">
-      <a ui-sref="projectsShow({ id: project._id })">
-        <img ng-src="{{ project.image }}" class="u-full-width">
-      </a>
-      <h6 class="projectsIndexSubtitle">{{ project.title }}</h6>
-      <button class="u-full-width" ui-sref="projectsShow({ id: project._id })" type="button">More Info</button>
-    </li>
-  </ul>
+<div ng-include="'../partials/nav.html'"></div>
+<section class="container">
+  <section class="row">
+    <h1>Portfolio</h1>
+    <ul>
+      <li ng-repeat="project in projectsIndex.all" class="grid-item four columns li">
+        <a ui-sref="projectsShow({ id: project._id })">
+          <img ng-src="{{ project.image }}" class="u-full-width">
+        </a>
+        <h6 class="projectsIndexSubtitle">{{ project.title }}</h6>
+        <button class="u-full-width" ui-sref="projectsShow({ id: project._id })" type="button">More Info</button>
+      </li>
+    </ul>
+  </section>
 </section>

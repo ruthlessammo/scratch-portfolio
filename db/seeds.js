@@ -31,7 +31,7 @@ Project.create([{
   herokuLink: 'http://ruthlessmuzic.herokuapp.com/',
   image: 'http://i.imgur.com/LwiZkWU.png'
 },{
-  title: 'KeepHush Website (TBA)',
+  title: 'KeepHush Website (Under Construction)',
   about: 'A MODERN MEMBERS CLUB FOR UNDERGROUND MUSIC LOVERS, CENTRED AROUND REGULAR, LIVE STREAMED MUSIC EVENTS.',
   githubLink: 'TBA',
   herokuLink: 'TBA',
