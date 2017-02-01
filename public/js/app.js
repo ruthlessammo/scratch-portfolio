@@ -22,11 +22,7 @@ function Router($stateProvider, $urlRouterProvider) {
   .state('skills', {
     url: '/skills',
     templateUrl: '/templates/skills.html'
-  })
-  .state('splash', {
-    url: '/',
-    templateUrl: '/templates/splash.html'
   });
 
-  $urlRouterProvider.otherwise('/');
+  $urlRouterProvider.otherwise('/projectsIndex');
 }
