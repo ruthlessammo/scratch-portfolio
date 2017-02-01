@@ -24,5 +24,5 @@ function Router($stateProvider, $urlRouterProvider) {
     templateUrl: '/templates/skills.html'
   });
 
-  $urlRouterProvider.otherwise('/projectsIndex');
+  $urlRouterProvider.otherwise('/projects');
 }
