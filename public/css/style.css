@@ -1,7 +1,7 @@
 /* Splash Page Styling */
 .main .splash-class {
-  background: url(../images/tri.png) no-repeat center center fixed;
-  background-size: cover;
+  background: url(../images/Triangle.svg) no-repeat center center fixed;
+  background-size: contain;
   background-position: center;
   min-height:90vh;
   display: flex;
@@ -15,7 +15,8 @@
 }
 
 .enter {
-  margin-right: 4px;
+  margin-top: 130px;
+  margin-right: 10px;
 }
 
 .logo {
