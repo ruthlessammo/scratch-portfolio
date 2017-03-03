@@ -14,10 +14,7 @@
   left: 0;
 }
 
-.enter {
-  margin-top: 130px;
-  margin-right: 10px;
-}
+
 
 .logo {
   display: inline-block;
@@ -224,4 +221,30 @@ a.contactLi {
 
 .grid-item {
   text-align: center;
+}
+
+.enter {
+  position:inherit;
+  z-index:9999;
+  top: 45%;
+  left: 43%;
+  width: 200px;
+  color: black;
+}
+
+.pjs {
+  position: inherit;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+#particleJs {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  opacity: 0.7;
 }

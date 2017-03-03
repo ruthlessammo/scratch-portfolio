@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "William Hilton <williamjchilton@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/ruthlessammo/scratch-portfolio",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "particles.js": "^2.0.0",
+    "angular": "^1.6.2",
+    "angular-resource": "^1.6.2",
+    "skeleton": "^2.0.4",
+    "angular-ui-router": "^0.4.2"
+  }
+}
