@@ -9,9 +9,7 @@ function particlesCtrl($scope) {
 function particlesDrv($window, $log) {
   return {
     restrict: 'A',
-    template: `<div class="particleJs" id="particleJs"><div class="logo" ui-sref="splash">
-      William Hilto<img src="../images/tri5.png" alt="logo" width="13px">'s Portfolio
-    </div><button class="enter pjs" ui-sref="about" type="button">ENTER</button></div>`,
+    template: `<div class="particleJs" id="particleJs"><button class="enter pjs" ui-sref="about" type="button">William Hilto<img src="../images/tri5.png" alt="logo" width="13px">'s Portfolio</button></div>`,
     link: function(scope, element, attrs, fn) {
       $log.debug('test');
       $window.particlesJS('particleJs', {
