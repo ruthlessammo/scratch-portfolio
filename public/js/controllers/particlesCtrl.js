@@ -15,7 +15,7 @@ function particlesDrv($window, $log) {
       $window.particlesJS('particleJs', {
         particles: {
           number: {
-            value: 150,
+            value: 120,
             density: {
               enable: true,
               value_area: 800
