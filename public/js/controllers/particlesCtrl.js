@@ -77,17 +77,17 @@ function particlesDrv($window, $log) {
           events: {
             onhover: {
               enable: true,
-              mode: 'repulse'
+              mode: 'grab'
             },
             onclick: {
               enable: true,
-              mode: 'grab'
+              mode: 'repulse'
             },
             resize: true
           },
           modes: {
             grab: {
-              distance: 140,
+              distance: 100,
               line_linked: {
                 opacity: 1
               }
