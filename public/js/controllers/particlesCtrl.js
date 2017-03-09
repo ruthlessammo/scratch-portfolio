@@ -77,11 +77,11 @@ function particlesDrv($window, $log) {
           events: {
             onhover: {
               enable: true,
-              mode: 'grab'
+              mode: 'repulse'
             },
             onclick: {
               enable: true,
-              mode: 'repulse'
+              mode: 'bubble'
             },
             resize: true
           },
@@ -93,8 +93,8 @@ function particlesDrv($window, $log) {
               }
             },
             bubble: {
-              distance: 400,
-              size: 40,
+              distance: 300,
+              size: 5,
               duration: 2,
               opacity: 8,
               speed: 3
