@@ -26,6 +26,10 @@ function Router($stateProvider, $urlRouterProvider, $locationProvider) {
     url: '/skills',
     templateUrl: '/templates/skills.html'
   })
+  .state('contact', {
+    url: '/contact',
+    templateUrl: '/templates/contact.html'
+  })
   .state('splash', {
     url: '/',
     templateUrl: '/templates/splash.html'

@@ -1,0 +1,17 @@
+<div ng-include="'../partials/nav.html'"></div>
+<div class="container">
+  <h3 class="contactCenter">Contact Me</h3>
+  <div class="formContainer">
+    <form class="" method="POST" action="http://formspree.io/williamhilton@tuta.io">
+      <div class="five columns detailInput" id='contactLeft'>
+        <input class="details" type="text" name="name" placeholder="Your name *" required>
+        <input class="details" type="email" name="email" placeholder="Your email *" required>
+        <input class="details" type="tel" name="tel" placeholder="Your phone number">
+      </div>
+      <div class="six columns">
+        <textarea class="message" name="message" placeholder="Your message" required></textarea>
+      </div>
+      <button class="contactCenter" type="submit">Send</button>
+    </form>
+  </div>
+</div>

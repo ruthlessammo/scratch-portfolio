@@ -7,7 +7,7 @@ const app = express();
 const port = process.env.PORT || 8000;
 const router = require('./config/routes');
 const db = require('./config/db');
-const dest = `${__dirname}/public`; // added for res.sendFile
+const dest = `${__dirname}/public`; // added for res.sendFiledem
 
 let mongoUri =  process.env.MONGODB_URI || 'mongodb://localhost/portfolio';
 mongoose.connect(mongoUri);
