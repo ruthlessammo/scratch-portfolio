@@ -290,4 +290,13 @@ canvas {
       width: 255px;
       color: black;
     }
+
+    .formContainer {
+      margin: 30% 20% 0% 14%;
+    }
+
+    .moblieIndex {
+      margin-top: 25px;
+    }
+
 }
